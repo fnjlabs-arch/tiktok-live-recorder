@@ -1,4 +1,4 @@
-# Code of Conduct - TikTok Live Recorder
+# Code of Conduct - SadSha Live Recorder
 
 ## Our Pledge
 

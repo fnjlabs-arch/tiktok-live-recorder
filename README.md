@@ -1,17 +1,17 @@
 <div align="center">
 
-# TikTok Live Recorder 🎥
+# SadSha Live Recorder 🎥
 
-_TikTok Live Recorder is a tool for recording live streaming TikTok._
+_SadSha Live Recorder is a tool for recording live streaming TikTok._
 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.me/tiktokliverecorder)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
-[![Stars](https://img.shields.io/github/stars/Michele0303/tiktok-live-recorder?style=for-the-badge)](https://github.com/Michele0303/tiktok-live-recorder/stargazers)
-[![Release](https://img.shields.io/github/v/release/Michele0303/tiktok-live-recorder?style=for-the-badge)](https://github.com/Michele0303/tiktok-live-recorder/releases/latest)
-[![Docker Pulls](https://img.shields.io/docker/pulls/michele0303/tiktok-live-recorder?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/michele0303/tiktok-live-recorder)
+[![Stars](https://img.shields.io/github/stars/fnjlabs-arch/tiktok-live-recorder?style=for-the-badge)](https://github.com/fnjlabs-arch/tiktok-live-recorder/stargazers)
+[![Release](https://img.shields.io/github/v/release/fnjlabs-arch/tiktok-live-recorder?style=for-the-badge)](https://github.com/fnjlabs-arch/tiktok-live-recorder/releases/latest)
+[![Docker Pulls](https://img.shields.io/docker/pulls/sadsha/live-recorder?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/r/sadsha/live-recorder)
 
-The TikTok Live Recorder is a tool designed to easily capture and save live streaming sessions from TikTok. It records both audio and video, allowing users to revisit and preserve engaging live content for later enjoyment and analysis. It's a valuable resource for creators, researchers, and anyone who wants to capture memorable moments from TikTok live streams.
+SadSha Live Recorder is a tool designed to easily capture and save live streaming sessions from TikTok. It records both audio and video, allowing users to revisit and preserve engaging live content for later enjoyment and analysis. It's a valuable resource for creators, researchers, and anyone who wants to capture memorable moments from TikTok live streams.
 
 ![preview](https://i.ibb.co/YTHp5DT/image.png)
 
@@ -32,7 +32,7 @@ The TikTok Live Recorder is a tool designed to easily capture and save live stre
 
 ```powershell
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-git clone https://github.com/Michele0303/tiktok-live-recorder
+git clone https://github.com/fnjlabs-arch/tiktok-live-recorder
 cd tiktok-live-recorder
 uv venv
 uv sync
@@ -46,7 +46,7 @@ uv run python src/main.py -h
 
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
-git clone https://github.com/Michele0303/tiktok-live-recorder
+git clone https://github.com/fnjlabs-arch/tiktok-live-recorder
 cd tiktok-live-recorder
 uv venv
 uv sync
@@ -61,7 +61,7 @@ uv run python src/main.py -h
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 brew install ffmpeg
-git clone https://github.com/Michele0303/tiktok-live-recorder
+git clone https://github.com/fnjlabs-arch/tiktok-live-recorder
 cd tiktok-live-recorder
 uv venv
 uv sync
@@ -80,7 +80,7 @@ pkg update && pkg upgrade
 pkg install git ffmpeg uv tur-repo
 pkg uninstall python
 pkg install python3.11
-git clone https://github.com/Michele0303/tiktok-live-recorder
+git clone https://github.com/fnjlabs-arch/tiktok-live-recorder
 cd tiktok-live-recorder
 uv venv
 uv sync
@@ -95,7 +95,7 @@ uv run python src/main.py -h
 ```bash
 sudo docker run \
   -v ./output:/output \
-  michele0303/tiktok-live-recorder:latest \
+  sadsha/live-recorder:latest \
   -output /output \
   -user <username>
 ```
@@ -132,13 +132,13 @@ uv run python src/main.py [options]
 
 ## Guide
 
-- [How to set cookies in cookies.json](https://github.com/Michele0303/tiktok-live-recorder/blob/main/docs/GUIDE.md#how-to-set-cookies)
-- [How to get room_id](https://github.com/Michele0303/tiktok-live-recorder/blob/main/docs/GUIDE.md#how-to-get-room_id)
-- [How to enable upload to Telegram](https://github.com/Michele0303/tiktok-live-recorder/blob/main/docs/GUIDE.md#how-to-enable-upload-to-telegram)
+- [How to set cookies in cookies.json](https://github.com/fnjlabs-arch/tiktok-live-recorder/blob/main/docs/GUIDE.md#how-to-set-cookies)
+- [How to get room_id](https://github.com/fnjlabs-arch/tiktok-live-recorder/blob/main/docs/GUIDE.md#how-to-get-room_id)
+- [How to enable upload to Telegram](https://github.com/fnjlabs-arch/tiktok-live-recorder/blob/main/docs/GUIDE.md#how-to-enable-upload-to-telegram)
 
 ## Contributing
 
-Contributions are welcome! Feel free to open an [issue](https://github.com/Michele0303/tiktok-live-recorder/issues) or submit a [pull request](https://github.com/Michele0303/tiktok-live-recorder/pulls).
+Contributions are welcome! Feel free to open an [issue](https://github.com/fnjlabs-arch/tiktok-live-recorder/issues) or submit a [pull request](https://github.com/fnjlabs-arch/tiktok-live-recorder/pulls).
 
 ## Legal ⚖️
 

@@ -20,7 +20,7 @@ class Telegram:
         self.chat_id = config["chat_id"]
 
         self.client = TelegramClient(
-            "tiktok_live_recorder_session",
+            "sadsha_live_recorder_session",
             api_id=self.api_id,
             api_hash=self.api_hash,
         )
@@ -70,7 +70,7 @@ class Telegram:
                         "🎥 <b>Video recorded via "
                         '<a href="https://github.com/Michele0303/'
                         'tiktok-live-recorder">'
-                        "TikTok Live Recorder</a></b>"
+                        "SadSha Live Recorder</a></b>"
                     ),
                     parse_mode="html",
                     force_document=True,

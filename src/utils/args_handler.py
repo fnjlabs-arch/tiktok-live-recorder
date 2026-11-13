@@ -10,7 +10,7 @@ def parse_args():
     Parse command line arguments.
     """
     parser = argparse.ArgumentParser(
-        description="TikTok Live Recorder - A tool for recording live TikTok sessions.",
+        description="SadSha Live Recorder - A tool for recording live TikTok sessions.",
         formatter_class=argparse.RawTextHelpFormatter,
     )
 

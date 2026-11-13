@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tiktok-live-recorder"
+name = "sadsha-live-recorder"
 version = "7.7.1"
-description = "A tool for recording TikTok live streams"
+description = "SadSha Live Recorder - a tool for recording TikTok live streams"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.11"
@@ -26,12 +26,12 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Michele0303/tiktok-live-recorder"
-Repository = "https://github.com/Michele0303/tiktok-live-recorder"
-Issues = "https://github.com/Michele0303/tiktok-live-recorder/issues"
+Homepage = "https://github.com/fnjlabs-arch/tiktok-live-recorder"
+Repository = "https://github.com/fnjlabs-arch/tiktok-live-recorder"
+Issues = "https://github.com/fnjlabs-arch/tiktok-live-recorder/issues"
 
 [project.scripts]
-tiktok-live-recorder = "main:main"
+sadsha-live-recorder = "main:main"
 
 [tool.setuptools]
 py-modules = ["main", "check_updates"]
